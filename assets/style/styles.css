@@ -3,6 +3,7 @@ body {
     background-color: #cccccc;
 }
 
+/* Custom Navbar Styles */
 .navbar-custom{
     background-color:  #002244;
 }
@@ -39,6 +40,23 @@ body {
     border-color: #FFFFFF;
   } 
 
+/* Main Section Styles */
+
+.profile-img-full{
+    float:left;
+    width: 350px;
+    padding-right: 10px;
+}
+
+.profile-img-mobile{
+    width: 250px;
+    border-radius: 50%;
+    display: none;
+}
+  .push {
+    height: 50px;
+  }
+
 #footer-text{
     font-size: 2em;
     color: #002244;
@@ -55,3 +73,23 @@ body {
 .footer-border{
     border-top: 2px solid #002244;
 }
+
+
+@media screen and (max-width: 576px) {
+    .main-header{
+        text-align: center;
+    }
+    .profile-img-full{
+        display: none;
+    }
+    .profile-img-mobile{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 0px;
+    }
+
+    .profile-text {
+        text-align: justify;
+    }
+  }
