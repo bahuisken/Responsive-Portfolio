@@ -57,6 +57,19 @@ body {
     height: 50px;
   }
 
+.btn-custom {
+    color: #fff;
+    background-color: #002244;
+    border-color: #002244;
+}
+
+.btn-custom:hover {
+    color: #fff;
+    background-color: #FA4616;
+    border-color: #FA4616;
+}
+/* Footer Styles */
+
 #footer-text{
     font-size: 2em;
     color: #002244;
@@ -74,11 +87,10 @@ body {
     border-top: 2px solid #002244;
 }
 
+/* Mobile only Styles */
 
 @media screen and (max-width: 576px) {
-    .main-header{
-        text-align: center;
-    }
+    
     .profile-img-full{
         display: none;
     }
@@ -91,5 +103,10 @@ body {
 
     .profile-text {
         text-align: justify;
+    }
+
+    .btn-custom{
+        margin-left: auto;
+        margin-right: auto;
     }
   }
