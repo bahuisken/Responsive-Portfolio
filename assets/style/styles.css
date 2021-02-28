@@ -89,6 +89,10 @@ body {
     background-color: #FA4616;
     border-color: #FA4616;
 }
+
+.img-screenshot{
+    border-bottom: 1px solid rgba(0,0,0,.125)
+}
 /* Footer Styles */
 
 #footer-text{
