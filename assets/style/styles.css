@@ -14,7 +14,22 @@ body {
 
 .navbar-custom .navbar-brand {
     color: #FFFFFF;
-    padding: 1rem 1rem;
+    padding: 0px;
+}
+.contact-holder{
+    padding: 0px;
+    margin: 0px;
+}
+.contact-info{
+    font-size: 1rem;
+    color: #FFFFFF;
+    padding: 0px;
+}
+.contact-info a{
+    color: #FFFFFF;
+}
+.contact-info:visited{
+    color: #FFFFFF;
 }
 
 .navbar-custom .navbar-nav .nav-link {
